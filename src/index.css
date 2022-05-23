@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+  background: #040404;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+option{
+  background: #040404;
+  border-radius: 5px !important;
+  border: none;
+}
+
+option::after{
+  border-radius: 5px !important;
+  border: none;
+}
+
+p{
+  margin: 0 0 5px 0;
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+color:  #18d26e;
+margin: 0 10px 0 10px;
+}
